@@ -1,0 +1,6 @@
+Install Boost and mysql-connector-c++ (optional)
+
+On mac OS:
+    add symbol link for every lib in mysql-connector-c++/lib64: e.g.
+        sudo ln -s mysql-connector-c++/lib64/libmysqlcppconn.7.dylib /usr/local/lib/libmysqlcppconn.7.dylib
+
